@@ -29,7 +29,6 @@ JSMin
 Firebug
 Speed Tracer for Chrome
 Google PageSpeed Tools
-YSlow!
 
 4. What performance aspects have been improved (e.g., loading time, size)? 
 Please provide numbers, percentages, or letter grades.
@@ -50,10 +49,16 @@ Loading Time -
 							and 93/100 on Desktop. I experimented with 
 							deferring the Javascript with the deferJSLoading.js
 							file.
+							The following conditions have passed: Leverage browser 
+							caching, optimize images, avoid landing page redirects, 
+							enable compression, minify CSS, minify HTML, minify 
+							Javascript, prioritize visible content, reduce server 
+							response time
 
 Size - 
 	JSMin: Before minifying the game.js file, game.js was a size of 12,970 bytes. 
 		   After minifying the game.js file, game.js was a size of 10,047 bytes. 
+		   Images, HTML, and CSS files have also been minified.
 		   
 5. Are there potential performance issues?
 One performance issue project is that when accept the online application 
