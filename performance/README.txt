@@ -46,9 +46,7 @@ Loading Time -
 							received a grade of 78/100 on mobile and 91/100
 							on Desktop. After editing enhancements, the 
 							frogger game received a grade of 83/100 on mobile 
-							and 93/100 on Desktop. I experimented with 
-							deferring the Javascript with the deferJSLoading.js
-							file.
+							and 93/100 on Desktop. 
 							The following conditions have passed: Leverage browser 
 							caching, optimize images, avoid landing page redirects, 
 							enable compression, minify CSS, minify HTML, minify 
