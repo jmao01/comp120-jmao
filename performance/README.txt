@@ -1,7 +1,7 @@
 1. What optimization techniques did you use?
 
 Remove all comments and as much whitespace as possible
-Combine JS and CSS files
+Make sure all JS and CSS files are combined
 Make sure CSS is at the top of the page
 Make sure Javascript and CSS are external
 Make sure Javascript is at the bottom of the page
@@ -34,9 +34,28 @@ YSlow!
 4. What performance aspects have been improved (e.g., loading time, size)? 
 Please provide numbers, percentages, or letter grades.
 
-Loading Time
-Size
+Loading Time -
+	Firebug: After implementing the application cache, the loading time 
+			 is the following:
+					index.html = 5 ms
+					style.css = 3 ms
+					game.js = 3 ms
+					assets/frogger_sprites.png = 1ms
+					dead_frog.png = 1ms
+	Speed Tracer for Chrome: Event trace of the layout is 1 ms.
+	Google PageSpeed Tools: Before editing enhancements, the frogger game 
+							received a grade of 78/100 on mobile and 91/100
+							on Desktop. After editing enhancements, the 
+							frogger game received a grade of 83/100 on mobile 
+							and 93/100 on Desktop. I experimented with 
+							deferring the Javascript with the deferJSLoading.js
+							file.
 
+Size - 
+	JSMin: Before minifying the game.js file, game.js was a size of 12,970 bytes. 
+		   After minifying the game.js file, game.js was a size of 10,047 bytes. 
+		   
 5. Are there potential performance issues?
-
-No, there are no potential performance issues.
+One performance issue project is that when accept the online application 
+cache, I can only see the page work if I retype the URL. Refreshing the 
+page results in a "Server not found."
