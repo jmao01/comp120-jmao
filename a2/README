@@ -1,0 +1,25 @@
+Jim Mao
+README
+COMP120 - Assignment 2
+
+1. The following have been correctly implemented:
+
+README in either text or markdown format
+Assignment pushed to private GitHub repository to a2 directory
+The App model with validations and associations
+The Message model with validations and associations
+apps table is seeded with initial data
+The messages_controller with the three actions
+Root of app is set to index action of messages_controller
+
+The following have been attempted:
+
+Create message via JSON format to create action
+The index HTML view with polling and timestamp in English, time ago format
+The show HTML view with timestamp in English, time ago format
+
+2. I have discussed the assignment with:
+
+Tommy Folliard
+
+3. I spent approximately 25 hours completing the assignment, including learning Rails.

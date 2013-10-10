@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1>Listing Messages</h1>
+ 
+<table>
+  <tr>
+    <th>app_id</th>
+    <th>content</th>
+    <th>username</th>
+    <th>active</th>
+    <th>created_at</th>
+    <th>updated_at</th>
+  </tr>
+ 
+  <% @messages.each do |message| %>
+    <tr>
+      <td><%= message.app_id %></td>
+      <td><%= message.content %></td>
+      <td><%= message.username %></td>
+      <td><%= message.active %></td>
+      <td><%= message.created_at %></td>
+      <td><%= message.updated_at %></td>
+    </tr>
+  <% end %>
+</table>
+</body>
+</html>
