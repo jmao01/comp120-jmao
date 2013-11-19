@@ -26,8 +26,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		msgTextField2 = (EditText) findViewById(R.id.editText2);
 		Button btn1 = (Button) findViewById(R.id.button1);
 		btn1.setOnClickListener(this);
-		PostMessage p = new PostMessage();
-		p.execute("testtest", "testtest");
 	}
 	
 	@Override

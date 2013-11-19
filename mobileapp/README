@@ -3,5 +3,9 @@ COMP120
 Assignment 3
 
 Accomplished: 
-Assignment pushed to private GitHub repository to mobile app directory
-
+Assignment pushed to private GitHub repository to mobileapp directory
+README in text or markdown format
+Created and used at least one view and view controller
+Successfully sends message to http://messagehub.herokuapp.com/messages.json 
+	via POST API; displays "SUCCESSFULLY SENT" message upon successful
+	submission of message
