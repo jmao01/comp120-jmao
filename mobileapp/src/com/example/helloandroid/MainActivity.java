@@ -21,9 +21,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		setContentView(R.layout.form);
 		Button btn1 = (Button) findViewById(R.id.button1);
 		btn1.setOnClickListener(this);
-		/*
 		PostMessage p = new PostMessage();
-		HttpResponse response = p.doInBackground("testtest", "testtest");*/
+		p.execute("testtest", "testtest");
 	}
 	
 	@Override
